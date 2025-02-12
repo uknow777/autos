@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/uknow777/autos/issues"
   },
-  "homepage": "https://github.com/uknow777/autos#readme"
+  "homepage": "https://github.com/uknow777/autos#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  }
 }
